@@ -4,26 +4,21 @@
              xmlns:local="clr-namespace:TripLog"
              x:Class="TripLog.MainPage"
              Title="TripLog">
+    
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Text="='New" Clicked="ToolbarItem_Clicked" />
+        </ContentPage.ToolbarItems>
 
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="='New" Clicked="ToolbarItem_Clicked" />
-    </ContentPage.ToolbarItems>
-   
-    <ListView x:Name="trips">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <TextCell Text="{Binding Title}"
-                         Detail="{Binding Notes}" />
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
-   
+        <ContentPage.Content>
+            <ListView x:Name="trips" ItemTapped="Trips_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Title}"
+                                     Detail="{Binding Notes}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ContentPage.Content>
 
-   <!-- <StackLayout> -->
-        <!-- Place new controls here -->
-      <!--  <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout> -->
 
 </ContentPage>

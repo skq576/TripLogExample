@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using TripLog.Models;
 using System.Collections.ObjectModel;
+using Xamarin.Forms.Maps;
 
 
 namespace TripLog
@@ -50,10 +51,19 @@ namespace TripLog
 
         }
 
-        private void ToolbarItem_Clicked(object sender, EventArgs e)
+        void ToolbarItem_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new NewEntryPage());
 
+        }
+
+        async void Trips_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var trip = (TripLogEntry)e.Item;
+            await Navigation.PushAsync(new DetailPage(trip));
+
+            //Clear selection
+            trips.SelectedItem = null;
         }
     }
 }

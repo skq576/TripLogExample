@@ -9,5 +9,6 @@ c:\users\mark\source\repos\TripLog\TripLog\TripLog\obj\Debug\netstandard2.0\Trip
 C:\Users\Mark\source\repos\TripLog\TripLog\TripLog\bin\Debug\netstandard2.0\TripLog.deps.json
 C:\Users\Mark\source\repos\TripLog\TripLog\TripLog\bin\Debug\netstandard2.0\TripLog.dll
 C:\Users\Mark\source\repos\TripLog\TripLog\TripLog\bin\Debug\netstandard2.0\TripLog.pdb
-C:\Users\Mark\source\repos\TripLog\TripLog\TripLog\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Mark\source\repos\TripLog\TripLog\TripLog\obj\Debug\netstandard2.0\NewEntryPage.xaml.g.cs
+C:\Users\Mark\source\repos\TripLog\TripLog\TripLog\obj\Debug\netstandard2.0\DetailPage.xaml.g.cs
+C:\Users\Mark\source\repos\TripLog\TripLog\TripLog\obj\Debug\netstandard2.0\XamlC.stamp

@@ -16,10 +16,10 @@ namespace TripLog
 		{
 			InitializeComponent ();
 		}
-        private void Save_Clicked(object sender, EventArgs e)
+       /* private void Save_Clicked(object sender, EventArgs e)
         {
             Navigation.PopAsync();
             //Navigation.PushAsync(new NewEntryPage());
-        }
+        } */
 	}
 }

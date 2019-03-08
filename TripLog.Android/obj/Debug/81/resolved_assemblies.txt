@@ -28,9 +28,15 @@ C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\
 C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
 C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.dll
+C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Maps.Android.dll
+C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Maps.dll
 C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
 C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
+C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Base.dll
+C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Maps.dll
+C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Tasks.dll
 C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\System.Net.Http.dll
 C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll

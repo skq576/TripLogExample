@@ -5,6 +5,7 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <application android:label="TripLog.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyCRsVi-0lIV7PX5yZ2FjepLShPhcwhaQRM" />
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="TripLog" android:theme="@style/MainTheme" android:name="md5e07377e2ca5eb41029fd9a49b2c6de6c.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -20,5 +21,9 @@
         <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.TripLog" />
       </intent-filter>
     </receiver>
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
   </application>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
 </manifest>
