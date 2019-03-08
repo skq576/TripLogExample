@@ -102,3 +102,4 @@ C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\
 C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\Mark\source\repos\TripLog\TripLog\TripLog.Android\obj\Debug\81\linksrc\TripLog.dll.mdb
