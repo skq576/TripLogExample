@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using TripLog.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,7 +15,10 @@ namespace TripLog.Views
 		public NewEntryPage ()
 		{
 			InitializeComponent ();
+
+            BindingContext = new NewEntryViewModel();
 		}
+
        /* private void Save_Clicked(object sender, EventArgs e)
         {
             Navigation.PopAsync();

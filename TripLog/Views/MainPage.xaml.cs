@@ -7,6 +7,7 @@ using Xamarin.Forms;
 using TripLog.Models;
 using System.Collections.ObjectModel;
 using Xamarin.Forms.Maps;
+using TripLog.ViewModels;
 
 
 namespace TripLog.Views
@@ -17,7 +18,9 @@ namespace TripLog.Views
         {
             InitializeComponent();
 
-            var items = new List<TripLogEntry>
+            BindingContext = new MainViewModel();
+
+           /* var items = new List<TripLogEntry>
             {
                 new TripLogEntry
                 {
@@ -46,8 +49,8 @@ namespace TripLog.Views
                     Latitude = 37.8268,
                     Longitude = -122.4798
                 }
-            };
-            trips.ItemsSource = items;
+            }; */
+           // trips.ItemsSource = items;
 
         }
 
